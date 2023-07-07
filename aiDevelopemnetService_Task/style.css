@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* word-break:keep-all; */
+    
+}
+.a{
+    text-decoration: none;
+
+}
+.topGgrient{
+    background: linear-gradient(90deg, rgba(255,175,90,0.2) 10%, rgba(255,252,252,1) 58%);
+}
+.topGgrientbtn{
+    background: linear-gradient(90deg, rgba(217,102,0,1) 0%, rgba(255,136,47,1) 58%);
+}
+.topGgrient div > span {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+}
+.textBg-image{
+    background: url(images/btnbg.png)no-repeat;
+    background-position: center;
+    padding: 20px;
+
+}
+.textBg-image-bottom{
+    background: url(images/btnbg.png)no-repeat;
+    background-position: -20px;
+    padding: 20px;
+}
+.aiService  h2{
+    font-weight: 700;
+    font-size: 40pt;
+}
+.aiService  > p{
+    margin: auto;
+    font-size: 18px;
+    width: 75%;
+    /* letter-spacing: 50cap; */
+}
+.aiService-3 h2{
+    font-weight: 600;
+    font-size: 35pt;
+}
+.aiService-3  > p{
+    margin: auto;
+    font-size: 16px;
+    width: 75%;
+    /* letter-spacing: 50cap; */
+}
+.sessiontwo{
+    width: 90% !important;
+}
+.sessiontwo .para{
+   font-size: 15px;
+   padding: 10px;
+}
+.session3{
+    background: rgba(0, 42, 89, 1);
+}
+.session3list{
+    border-bottom: 1.5px solid white;
+    
+}
+.inner{
+    color: black;
+}
+.text-black{
+    color: black;
+}
+.bor-start{
+    padding: 10px;
+    border-bottom: 1px solid rgb(52, 50, 50,0.3);
+    border-right: 1px solid rgb(52, 50, 50,0.3);
+
+}
+.bor-end{
+    padding: 10px;
+    border-bottom: 1px solid rgb(52, 50, 50,0.3);
+    border-left: 1px solid rgb(52, 50, 50,0.3);
+
+}
+.bor-left{
+    padding: 10px;
+    border-left: 1px solid rgb(52, 50, 50,0.3);
+
+}
+.lastbox{
+    background-color:  rgba(242, 102, 36, 1);
+}
+.lastbox > h5{
+    font-size: 11pt;
+}
+.lastbox > p{
+    font-size: 9pt;
+}
+.session4 div > p{
+    font-size: 12pt !important;
+    word-spacing: -1px;
+    opacity: 0.9;
+}
+.session5box1{
+    width: 90%;
+    border-radius: 5px;
+    background: rgba(247, 147, 30, 0.1);
+}
+.session5box1 > div{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    font-size: 14pt;
+}
+.session5box1 > div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    color: white;
+    background-color:rgba(0, 42, 89, 1);
+}
+.fs-40{
+    font-size: 40px;
+}
+.bor-arround{
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 3px 1px rgba(247, 147, 30, 0.8);
+
+   
+}
+.fig-title  div > h6{
+    padding-top: 5px;
+    color: rgb(54, 53, 53,0.8);
+}
+.box-last{
+    padding: 10px;
+}
+.box-last > p{
+    font-size: 10pt;
+}
+.box-last > h4{
+    font-weight: 600;
+}
+.bottoline{
+    padding-top: 15px;
+    width: 70%;
+    font-size: 40pt;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/* bottom */
+
+.step {
+    position: relative;
+    min-height: 2em;
+    color: gray;
+  }
+  .step + .step {
+    margin-top: 1.5em;
+  }
+  .step > div:first-child {
+    position: static;
+    height: 0;
+  }
+  .step > div:not(:first-child) {
+    margin-left: 1.5em;
+    padding-left: 1em;
+  }
+  .step.step-active {
+    color: #4285f4;
+  }
+  .step.step-active .circle {
+    background-color: #4285f4;
+  }
+  
+  /* Circle */
+  .circle {
+    background: rgb(243, 142, 9);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 100%;
+    color: #fff;
+    /* text-align: center; */
+    box-shadow: 0 0 0 3px #fff;
+  }
+  .circle p {
+    font-size: 20px;
+    margin-top: -14px;
+    margin-left: -9px;
+  }
+  /* Vertical Line */
+  .circle:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 2px;
+    border: 1px dotted rgba(0, 0, 0, 0.25);
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    /* background-color: rgba(0, 0, 0, 0.25); */
+    z-index: -1;
+  }
+  .step:last-child .circle:after {
+    display: none;
+  }
+  
+  /* Stepper Titles */
+  .title {
+    line-height: 1.5em;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .caption {
+    font-size: 0.8em;
+    margin-left: 20px;
+  }
+  
