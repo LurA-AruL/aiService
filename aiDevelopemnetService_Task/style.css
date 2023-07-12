@@ -17,7 +17,7 @@
 }
 .topGgrient div > span {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40pt;
+    font-size: 30pt;
 }
 .textBg-image{
     background: url(images/btnbg.png)no-repeat;
@@ -223,5 +223,27 @@
   .caption {
     font-size: 0.8em;
     margin-left: 20px;
+  }
+
+  @media only screen and (min-width:0px) and (max-width:576px) {
+    .topGgrient div > span{
+        
+        font-size: 35px;
+        word-break:keep-all;
+        text-align: start;
+        /* background-color: red; */
+    }
+    .aiService  h2{
+        font-size: 25pt;
+    }
+    .aiService-3 h2{
+        font-size: 25pt;
+    }
+    .session3 div > h3{
+        font-size: 25pt;
+    }
+    .topGgrientbtn > span {
+        font-size: 10px;
+    }
   }
   
