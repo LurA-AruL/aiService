@@ -228,7 +228,7 @@
   @media only screen and (min-width:0px) and (max-width:576px) {
     .topGgrient div > span{
         
-        font-size: 35px;
+        font-size: 25px;
         word-break:keep-all;
         text-align: start;
         /* background-color: red; */
